@@ -83,7 +83,7 @@ namespace Miniproject_Team3
         public void showAdminScreen()
         {
             Console.WriteLine("*****Admin Screen******");
-            Console.WriteLine("1.Showallstudent detail\n2.enrollcourse\n3.show all courses\n.3.enrollment 4.list of enrollment\n");
+            Console.WriteLine("1.Showallstudent detail\n2.enrollcourse\n3.show all courses\n.4.enrollment 5.list of enrollment\n");
             Console.WriteLine("----------- Above choose which you need ------------");
             int showStudentScreeninput = Convert.ToInt32(Console.ReadLine());
             switch (showStudentScreeninput)
@@ -105,6 +105,8 @@ namespace Miniproject_Team3
                   
 
                 case 4: enroll();
+                    break;
+                case 5:  displayenroll();
                     break;
                 //showAllCoursesScreen();
 
